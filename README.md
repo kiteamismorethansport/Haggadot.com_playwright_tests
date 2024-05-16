@@ -17,20 +17,20 @@ As a user, I want to be able to search and share my favorite Haggadahs so I can 
 
 ## Project Structure
 
-project-root/
-│
-├── tests/
-│ ├── searchAndShareHaggadah.spec.js
-│ └── ... (other test files)
-│
-├── pageObjects/
-│ ├── HomePage.js
-│ ├── SearchResultsPage.js
-│ ├── SharePage.js
-│
-├── playwright.config.js
-├── package.json
-└── ... (other configuration files and folders)  
+project-root/<br/>
+│<br/>
+├── tests/<br/>
+│ ├── searchAndShareHaggadah.spec.js<br/>
+│ └── ... (other test files)<br/>
+│<br/>
+├── pageObjects/<br/>
+│ ├── HomePage.js<br/>
+│ ├── SearchResultsPage.js<br/>
+│ ├── SharePage.js<br/>
+│<br/>
+├── playwright.config.js<br/>
+├── package.json<br/>
+└── ... (other configuration files and folders)  <br/>
 
 - **tests/**: Contains test files.
 - **pageObjects/**: Contains Page Object classes for different pages and components of the application.
